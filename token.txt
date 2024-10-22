@@ -1,0 +1,58 @@
+Done! Congratulations on your new bot. You will find it at t.me/InterChatBridgeBot. You can now add a description, about section and profile picture for your bot, see /help for a list of commands. By the way, when you've finished creating your cool bot, ping our Bot Support if you want a better username for it. Just make sure the bot is fully operational before you do this.
+
+Use this token to access the HTTP API:
+7622506593:AAHfiLlK31Kt7c1RXqqJ7kP30xx5g-hst3Y
+Keep your token secure and store it safely, it can be used by anyone to control your bot.
+
+For a description of the Bot API, see this page: https://core.telegram.org/bots/api
+
+https://api.telegram.org/bot7622506593:AAHfiLlK31Kt7c1RXqqJ7kP30xx5g-hst3Y/getUpdates
+
+
+{
+    "ok": true,
+    "result": [
+        {
+            "update_id": 775667577,
+            "message": {
+                "message_id": 3,
+                "from": {
+                    "id": 7289256827,
+                    "is_bot": false,
+                    "first_name": "NAHID",
+                    "username": "NAAHID007",
+                    "language_code": "en"
+                },
+                "chat": {
+                    "id": 7289256827,
+                    "first_name": "NAHID",
+                    "username": "NAAHID007",
+                    "type": "private"
+                },
+                "date": 1729619953,
+                "text": "Hello"
+            }
+        },
+        {
+            "update_id": 775667578,
+            "message": {
+                "message_id": 4,
+                "from": {
+                    "id": 7289256827,
+                    "is_bot": false,
+                    "first_name": "NAHID",
+                    "username": "NAAHID007",
+                    "language_code": "en"
+                },
+                "chat": {
+                    "id": 7289256827,
+                    "first_name": "NAHID",
+                    "username": "NAAHID007",
+                    "type": "private"
+                },
+                "date": 1729619987,
+                "text": "Hello. This is Nahid."
+            }
+        }
+    ]
+}
